@@ -9,18 +9,36 @@
             margin: 0;
             padding: 0;
         }
+        .tab {
+            position:absolute;
+            width:50px;
+            height:160px;
+            background-color: blanchedalmond;
+        }
+        .tabbrowser_taiken {
+            top: 165px;
+            right: 0px
+        }
+        .tabbrowser_annai {
+
+        }
+        
     </style>
 </head>
 <body>
     <header>
-        <div style="width:100%; height:85px; background-color:black;">
+        <div style="width:100%; height:97px; background-color:black;">
         <p style="color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, us?</p>
         </div>
     </header>
     <main>
-        <div>
-            <div style="position:absolute; width:50px; height:160px; ">
-                <img src="">
+        <div style="display: flex; flex-direction: column;">
+            <div class="tab tabbrowser_taiken">
+                <img src="./assets/images/icontaiken@2x.png" style="width:25px; height:25px;">
+                <p>テキスト</p>
+            </div>
+            <div class="tab" style="margin-top:16px">
+                <img src="./assets/images/iconannai@2x.png" style="width:25px; height:25px;">
                 <p>テキスト</p>
             </div>
         </div>
